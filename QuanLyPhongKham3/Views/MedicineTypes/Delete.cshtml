@@ -1,0 +1,63 @@
+﻿@model QuanLyPhongKham3.Models.MedicineType
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Do you want to delete this medicine type?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("Name of medicine type")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" onclick="return functionConfirm(this)" /> |
+            @Html.ActionLink("Back", "Index")
+        </div>
+    }
+</div>
+@section Scripts{
+    <script src="https://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="~/Scripts/sweetalert.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/sweetalert.js"></script>
+    <script type="text/javascript">
+        function functionConfirm(event) {
+            swal({
+                title: 'Are You Sure?',
+                text: "You will not be able to recover this item",
+                type: 'warning',
+                showCancelButton: true,
+                cancelButtonText: 'No',
+                cancelButtonClass: 'btn btn-danger',
+                showConfirmButton: true,
+                confirmButtonText: 'Yes',
+                confirmButtonClass: 'btn btn-success'
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    $('form').submit();
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            return false;
+        }
+    </script>
+
+}

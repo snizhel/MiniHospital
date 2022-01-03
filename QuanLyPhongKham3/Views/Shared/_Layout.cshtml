@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <!--<link rel="stylesheet" href="~/Content/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/assets/css/Navigation-Dark-Clean.css">
+    <link rel="stylesheet" href="~/Content/assets/css/styles.css">-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="~/Content/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/style.css" type="text/css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+</head>
+<body style="padding-top:0px">
+    <!--<nav class="navbar navbar-dark navbar-expand-md bg-dark navigation-clean">
+        <div class="container">
+            <a class="navbar-brand" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div id="menu-main-nav" class="navbar-nav nav-fill w-100">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" >First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+    @*<div class="navbar navbar-inverse navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li> @Html.ActionLink("Home", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Quản lý thuốc", "Index", "Medicines")</li>
+                            <li>@Html.ActionLink("Quản lý bệnh nhân", "Index", "Customers")</li>
+
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+
+            </div>
+
+        </div>*@
+
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <ul class="header__top__left">
+                            <li><i class="fa fa-phone"></i> 1900 555 553</li>
+                            <li><i class="fa fa-map-marker"></i> 575 Su Van Hanh, Ward 13, District 10.</li>
+                            <li><i class="fa fa-clock-o"></i> Mon to Sat 9:00am to 18:00pm</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="header__top__right">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header__logo">
+                        <a href="@Url.Action("Index", "Home")"><img src="~/Content/img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="header__menu__option">
+                        <nav class="header__menu">
+                            <ul>
+                                <li class="active"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                <li><a href="@Url.Action("About", "Home")">About</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+                                @if (this.User.IsInRole("Dispenser"))
+                                {
+                                    <li>
+                                        <a href="">Reception</a>
+                                        <ul class="dropdown">
+
+                                            <li><a href="@Url.Action("Index","MedicineKeeper")">Check Patient</a></li>
+
+                                        </ul>
+                                    </li>
+                                }
+                                else if (this.User.IsInRole("Employee"))
+                                {
+                                    <li>
+                                        <a href="">Reception</a>
+                                        <ul class="dropdown">
+                                            <li><a href="@Url.Action("Index","Customers")">Patient</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                }
+                                else if (this.User.IsInRole("Admin"))
+                                {
+                                    <li>
+                                        <a href="">Reception</a>
+                                        <ul class="dropdown">
+                                            <li><a href="@Url.Action("Index","Customers")">Patient</a></li>
+                                            <li><a href="@Url.Action("Index","MedicineKeeper")">Check Patient</a></li>
+
+                                        </ul>
+                                    </li>
+                                }
+
+                                @if (this.User.IsInRole("Doctor"))
+                                {
+                                    <li>
+                                        <a href="#">Manage</a>
+                                        <ul class="dropdown">
+                                            <li><a href="@Url.Action("Index","Prescriptions")">Patient queue</a></li>
+
+                                        </ul>
+                                    </li>
+                                }
+                                @if (this.User.IsInRole("Admin"))
+                                {
+                                    <li>
+                                        <a href="#">Manage</a>
+                                        <ul class="dropdown">
+                                            <li><a href="@Url.Action("Index","Prescriptions")">Patient queue</a></li>
+                                            <li><a href="@Url.Action("RegisterEmployee","Account")">Register Staff</a></li>
+                                            <li><a href="@Url.Action("Index","MedicineTypes")">Drug List</a></li>
+                                            <li><a href="@Url.Action("Index","Medicines")">Medicines</a></li>
+                                        </ul>
+                                    </li>
+                                }
+                              
+                                @if (this.User.IsInRole("Dispenser"))
+                                {
+                                    <li>
+                                        <a href="#">Manage</a>
+                                        <ul class="dropdown">
+
+                                            <li><a href="@Url.Action("Index","MedicineTypes")">Drug List</a></li>
+                                            <li><a href="@Url.Action("Index","Medicines")">Medicines</a></li>
+                                        </ul>
+                                    </li>
+                                }
+                                @if (this.User.IsInRole("Employee"))
+                                {
+                                    @*<li>
+                <a href="#">Manage</a>
+                <ul class="dropdown">
+                    <li><a href="@Url.Action("Index","Prescriptions")">Patient queue</a></li>
+                    <li><a href="@Url.Action("RegisterEmployee","Account")">Register Staff</a></li>
+                    <li><a href="@Url.Action("Index","MedicineTypes")">Drug List</a></li>
+                    <li><a href="@Url.Action("Index","Medicines")">Medicines</a></li>
+                </ul>
+            </li>*@
+                                }
+
+                                @if (Request.IsAuthenticated)
+                                {
+                                    <li style="display:none"><a href="@Url.Action("Register", "Account")">Register</a></li>
+                                }
+                                else
+                                {
+                                    <li><a href="@Url.Action("Register", "Account")">Register</a></li>
+                                }
+                            </ul>
+                        </nav>
+
+
+                        @if (Request.IsAuthenticated)
+                        {
+
+                            using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <p class="btn-group nav">
+                                    <a class="primary-btn" style="background-color:forestgreen;color:aliceblue">@User.Identity.Name</a>
+                                    <ul class="dropdown">
+                                        <li style="list-style-type: none;">
+                                            <a href="javascript:document.getElementById('logoutForm').submit()">
+                                                Log out
+                                                <span class="glyphicon glyphicon-log-out"></span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </p>
+
+                            }
+                        }
+                        else
+                        {
+                            <div class="header__btn">
+
+                                <a href="@Url.Action("Login", "Account")" class="primary-btn">
+                                    Login
+                                </a>
+                            </div>
+                        }
+                    </div>
+
+                </div>
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+
+
+    <div class="container body-content" style=" bottom: 0; ">
+        @RenderBody()
+        <hr />
+        @*<footer>
+                <p>&copy; @DateTime.Now.Year -Snive Hospital</p>
+            </footer>*@
+        @*<footer class="footer" style="width:1264px    ;display: inline-block;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+                <div class="footer__top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="footer__logo">
+                                    <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-8">
+                                <div class="footer__newslatter">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email">
+                                        <button type="submit" class="site-btn">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-12">
+                                <div class="footer__social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer__widget">
+                                <h5>Company</h5>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Departments</a></li>
+                                    <li><a href="#">Find a Doctor</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer__widget">
+                                <h5>Quick links</h5>
+                                <ul>
+                                    <li><a href="#">Facial Fillers</a></li>
+                                    <li><a href="#">Breast Surgery</a></li>
+                                    <li><a href="#">Body Lifts</a></li>
+                                    <li><a href="#">Face & Neck</a></li>
+                                    <li><a href="#">Fat Reduction</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer__address">
+                                <h5>Contact Us</h5>
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i> Los Angeles Gournadi, 1230 Bariasl</li>
+                                    <li><i class="fa fa-phone"></i> 1-677-124-44227</li>
+                                    <li><i class="fa fa-envelope"></i> Support@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-6">
+                            <div class="footer__map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48158.305462977965!2d-74.13283844036356!3d41.02757295168286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2e440473470d7%3A0xcaf503ca2ee57958!2sSaddle%20River%2C%20NJ%2007458%2C%20USA!5e0!3m2!1sen!2sbd!4v1575917275626!5m2!1sen!2sbd"
+                                        height="190" style="border:0" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                <div class="footer__copyright__text">
+                                    <p>
+                                        Copyright &copy;
+                                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This
+                                        template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                    </p>
+                                </div>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </div>
+                            <div class="col-lg-5">
+                                <ul>
+                                    <li>All Rights Reserved</li>
+                                    <li>Terms & Use</li>
+                                    <li>Privacy Policy</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>*@
+
+
+
+    </div>
+    <!-- <script src="~/Content/assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>-->
+    @*  @Scripts.Render("~/bundles/jquery")
+
+        @Scripts.Render("~/bundles/bootstrap")*@
+
+    <script src="~/Content/js/jquery-3.3.1.min.js"></script>
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/masonry.pkgd.min.js"></script>
+    <script src="~/Content/js/jquery-ui.min.js"></script>
+    <script src="~/Content/js/jquery.nice-select.min.js"></script>
+    <script src="~/Content/js/jquery.slicknav.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/main.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

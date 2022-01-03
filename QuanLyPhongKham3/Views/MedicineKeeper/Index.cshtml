@@ -1,0 +1,53 @@
+﻿@model IEnumerable<QuanLyPhongKham3.Models.Prescription>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2></h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Date of Create")
+        </th>
+        <th>
+            @Html.Label("Doctor Name")
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            @Html.Label("Patient Name")
+        </th>
+       
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfCreate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Staff.Name)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Name)
+            </td>
+            <td>
+
+                @Html.ActionLink("Dispense", "Details", new { id = item.ID }) 
+
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,160 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model  PagedList.IPagedList<QuanLyPhongKham3.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div>
+    <h2>Patient List</h2>
+    @using (@Html.BeginForm("Index", "Customers", FormMethod.Get))
+    {
+        <b>Sort By:</b>
+        @Html.RadioButton("searchBy", "Name", true) <text>Name</text>
+        @Html.RadioButton("searchBy", "Gender") <text>Gender</text>
+        <br />
+        @Html.Editor("search", new { htmlAttributes = new { @class = "", placeholder = "Please enter patient name" } }) <input type="submit" value="search" />
+    }
+
+    <p>
+        @if (this.User.IsInRole("Doctor"))
+        {
+            <a style="display:none" href="@Url.Action("Create", "Customers")"></a>
+
+
+        }
+        else
+        {
+            @Html.ActionLink("Insert Patient", "Create")
+        }
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("ID")
+            </th>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortBy = ViewBag.NameSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.Label("Day of birth")
+            </th>
+            <th>
+                @Html.Label("Address")
+            </th>
+            <th>
+                @Html.ActionLink("Phone Number", "Index", new { sortBy = ViewBag.PhoneSort, seraching = Request["seraching"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.ActionLink("Gender", "Index", new { sortBy = ViewBag.SexSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.Label("Email")
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfBirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sex)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DropDownList("IdStaff" + item.ID, (SelectList)ViewBag.IdStaff, htmlAttributes: new { @class = "form-control" })
+
+                </td>
+                <td style="border-radius: 5px; border: solid;background-color:white" type="button" class="add-to-cart" title="Add to Cart" data-id="@item.ID">
+                    <span class="glyphicon" style="color: black; ">Transfer</span>
+                </td>
+                @if (this.User.IsInRole("Doctor"))
+                {
+                    <td>
+
+                        <a style="display:none" href="@Url.Action("Edit", "Customers")"></a>
+                        <a style="display:none" href="@Url.Action("Details", "Customers")"></a>
+                        <a style="display:none" href="@Url.Action("Delete", "Customers")"></a>
+                        @Html.ActionLink("Make prescription", "Create", "Prescriptions")
+
+
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID }) |
+
+                    </td>
+                }
+
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"], sortBy = Request["sortBy"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true })
+</div>
+@section Scripts{
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="~/Scripts/sweetalert.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/sweetalert.js"></script>
+    <script language="javascript">
+        $(".add-to-cart").click(function () {
+            var tr = $(this).closest("tr");
+            var item_id = $(this).data("id");
+            var doctor_id = $("#IdStaff" + item_id).val()
+            /*alert(doctor_id)*/
+            $.ajax({
+                url: '/Prescriptions/Add',
+                method: 'GET',
+                async: true,
+                cache: false,
+                data: {
+                    patient_id: item_id,
+                    doctor_id: doctor_id
+
+                },
+                beforeSend: function () {
+                    swal("Waiting!", "...the patient is adding!");
+                }
+            }).done(function (result) {
+                if (result.status == "OK") {
+                    swal("Good job!", 'success', "success");
+                    tr.remove();
+                }
+                else if (result.status == "ER") {
+                    //$("#fb").html(result.data);
+                    swal("Error!", "Error!", result.data);
+                }
+
+            }).fail(function (xhr, status) {
+                //$("#fb").html(status);
+                alert("failed", "Error!", status);
+            }).always(function () {
+                //$("#fb").html("");
+            })
+        })
+    </script>
+
+}

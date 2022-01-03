@@ -1,0 +1,370 @@
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\QuanLyPhongKham3.dll.config
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\QuanLyPhongKham3.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\QuanLyPhongKham3.pdb
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csc.exe
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Antlr3.Runtime.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\EntityFramework.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\EntityFramework.SqlServer.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Newtonsoft.Json.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Owin.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Helpers.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Mvc.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Optimization.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Razor.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.Deployment.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.Razor.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\WebGrease.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Helpers.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Mvc.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Optimization.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.Razor.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.Deployment.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Web.WebPages.Razor.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Newtonsoft.Json.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Antlr3.Runtime.pdb
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\EntityFramework.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\EntityFramework.SqlServer.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csproj.CoreCompileInputs.cache
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csproj.CopyComplete
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.pdb
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csc.exe.config
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csc.rsp
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csi.exe
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csi.exe.config
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\csi.rsp
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.AppContext.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Console.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.IO.Compression.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Net.Http.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Net.Sockets.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.ValueTuple.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Xml.XPath.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\vbc.exe
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\vbc.exe.config
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\vbc.rsp
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\VBCSCompiler.exe
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\PagedList.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\PagedList.Mvc.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\PagedList.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\PagedList.Mvc.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Options.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Buffers.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.ComponentModel.Annotations.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Memory.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Numerics.Vectors.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Text.Encodings.Web.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Text.Json.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.ValueTuple.dll
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Options.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Buffers.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Memory.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Numerics.Vectors.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Text.Encodings.Web.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Text.Json.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\bin\System.ValueTuple.xml
+C:\Users\le gia vinh\source\repos\QuanLyPhongKham3\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csprojAssemblyReference.cache
+D:\repos\MiniHospital\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csproj.AssemblyReference.cache
+D:\repos\MiniHospital\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csproj.CoreCompileInputs.cache
+D:\repos\MiniHospital\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.pdb
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\QuanLyPhongKham3.dll.config
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\QuanLyPhongKham3.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\QuanLyPhongKham3.pdb
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csc.exe
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csc.exe.config
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csc.rsp
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csi.exe
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csi.exe.config
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\csi.rsp
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.Managed.Core.targets
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.AppContext.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Collections.Immutable.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Console.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Globalization.Calendars.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.IO.Compression.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.IO.FileSystem.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Net.Http.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Net.Sockets.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Reflection.Metadata.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.ValueTuple.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Xml.XmlDocument.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Xml.XPath.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\vbc.exe
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\vbc.exe.config
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\vbc.rsp
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\VBCSCompiler.exe
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\roslyn\VBCSCompiler.exe.config
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Antlr3.Runtime.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\EntityFramework.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\EntityFramework.SqlServer.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Core.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyModel.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.ObjectPool.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Options.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Primitives.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Net.Http.Headers.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Cookies.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Facebook.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Google.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.OAuth.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Twitter.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Web.Infrastructure.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Newtonsoft.Json.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Owin.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\PagedList.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\PagedList.Mvc.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Buffers.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.ComponentModel.Annotations.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Diagnostics.DiagnosticSource.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Memory.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Numerics.Vectors.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Text.Encodings.Web.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Text.Json.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Threading.Tasks.Extensions.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.ValueTuple.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Helpers.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Mvc.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Optimization.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Razor.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.Deployment.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.Razor.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\WebGrease.dll
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\EntityFramework.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\EntityFramework.SqlServer.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.ObjectPool.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Options.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Extensions.Primitives.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Net.Http.Headers.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\PagedList.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\PagedList.Mvc.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Buffers.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Diagnostics.DiagnosticSource.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Memory.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Numerics.Vectors.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Text.Encodings.Web.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Text.Json.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Threading.Tasks.Extensions.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.ValueTuple.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Helpers.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Mvc.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Optimization.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.Razor.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.Deployment.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\System.Web.WebPages.Razor.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Newtonsoft.Json.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Antlr3.Runtime.pdb
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Core.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Facebook.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Cookies.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Google.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.Twitter.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.Owin.Security.OAuth.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\repos\MiniHospital\QuanLyPhongKham3\obj\Debug\QuanLyPhongKham3.csproj.CopyComplete

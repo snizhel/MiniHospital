@@ -1,0 +1,196 @@
+﻿@model QuanLyPhongKham3.Models.PrescriptionDetails
+
+@{
+    ViewBag.Title = "Apply";
+    QuanLyPhongKham3.Models.Prescription dt = ViewBag.prescription;
+}
+
+<h2>Apply</h2>
+
+<div>
+    <h4>ID: @(dt.ID.ToString("000000"))</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Date:
+        </dt>
+
+        <dd>
+            @(dt.DateOfCreate.ToString("dd-MM-yyyy"))
+        </dd>
+
+        <dt>
+            Patient:
+        </dt>
+
+        <dd>
+            @(dt.Customer.Name)
+        </dd>
+
+        <dt>
+            Doctor:
+        </dt>
+
+        <dd>
+            @(dt.Staff.Name)
+        </dd>
+
+        <dt>
+            Status:
+        </dt>
+
+        <dd>
+            @(dt.Status)
+        </dd>
+
+
+    </dl>
+</div>
+<table class="table">
+    <tr>
+        <th>
+            No
+        </th>
+        <th>
+            Medicine name
+        </th>
+        <th>
+            Unit
+        </th>
+        <th class="text-right">
+            Quantity
+        </th>
+        <th class="text-right">
+            Morning
+        </th>
+        <th class="text-right">
+            Afternoon
+        </th>
+        <th class="text-right">
+            Noon
+        </th>
+        <th class="text-right">
+            Night
+        </th>
+        <th>
+            Usage
+        </th>
+    </tr>
+
+    @foreach (var item in dt.PrescriptionDetails.Select((x, i) => new { Data = x, Index = i }))
+    {
+        <tr>
+            <td>
+                @(item.Index + 1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data.Medicine.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data.Medicine.Unit)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Data.Quantity)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Data.Morning)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Data.Noon)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Data.Afternoon)
+            </td>
+            <td align="right">
+                @Html.DisplayFor(modelItem => item.Data.Night)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data.Using)
+            </td>
+
+        </tr>
+    }
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <tr>
+            <td colspan="3">
+                @Html.HiddenFor(model => model.IDPrescription, new { Value = dt.ID })
+                @Html.DropDownList("IDMedicine", null, htmlAttributes: new { @class = "form-control", style = "width: 300px;" })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @Value = "0", @class = "form-control", style = "width: 100%;" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Morning, new { htmlAttributes = new { @Value = "0", @class = "form-control", style = "width: 100%;" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Noon, new { htmlAttributes = new { @Value = "0", @class = "form-control", style = "width: 100%;" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Afternoon, new { htmlAttributes = new { @Value = "0", @class = "form-control", style = "width: 100%;" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Night, new { htmlAttributes = new { @Value = "0", @class = "form-control", style = "width: 100%;" } })
+            </td>
+            <td>
+                @Html.EditorFor(model => model.Using, new { htmlAttributes = new { @Value = "Drink", @class = "form-control", style = "width: 100%;" } })
+            </td>
+        </tr>
+        <tr>
+            <td colspan="9" class="text-right">
+                <input type="submit" value="Add" class="btn btn-info" />
+            </td>
+            <td type="button" class="add-to-cart" data-id="@dt.ID">
+                <button style="color: #fff; background-color:#5bc0de;border-color:#46b8da ;border-radius:5px;height:33px">Transfer</button>
+            </td>
+
+        </tr>
+    }
+</table>
+@section Scripts{
+    <script src="https://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="~/Scripts/sweetalert.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/sweetalert.js"></script>
+    <script language="javascript">
+        $(".add-to-cart").click(function () {
+            var tr = $(this).closest("tr");
+            var pres_id = $(this).data("id");
+
+            $.ajax({
+                url: '/Prescriptions/Transfer',
+                method: 'GET',
+                async: true,
+                cache: false,
+                data: {
+                    pres_id: pres_id,
+
+
+
+                },
+                beforeSend: function () {
+                    swal("Please wait...");
+                }
+            }).done(function (result) {
+                if (result.status == "OK") {
+                    swal("Success!");
+                    window.location.href = '@Url.Action("Index", "Prescriptions")'
+                    tr.remove();
+                }
+                else if (result.status == "ER") {
+                    //$("#fb").html(result.data);
+                    alert("Error!", "Error!", result.data);
+                }
+
+            }).fail(function (xhr, status) {
+                //$("#fb").html(status);
+                swal("failed", "Error!", status);
+            }).always(function () {
+                //$("#fb").html("");
+            })
+        })
+    </script>
+
+}

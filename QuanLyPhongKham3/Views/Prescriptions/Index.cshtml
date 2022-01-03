@@ -1,0 +1,77 @@
+﻿@model IEnumerable<QuanLyPhongKham3.Models.Prescription>
+
+
+@{ ViewBag.Title = "Index"; }
+
+
+<table class="table" onload="JavaScript:timedRefresh(5000);">
+    <tr>
+        <th class="text-right">
+            No.
+        </th>
+        <th>
+            @Html.Label("Name")
+        </th>
+        <th>
+            @Html.Label("Doctor Name")
+        </th>
+        <th>
+            @Html.Label("Status")
+        </th>
+        <th>
+            @Html.Label("Date of Create")
+        </th>
+
+        <th>
+
+
+
+        </th>
+    </tr>
+    @{ int i = 0; }
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td class="text-right">
+                @(++i)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Staff.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfCreate)
+            </td>
+
+            <td style="border:solid;background-color:aqua;width:30px">
+                @Html.ActionLink("Apply", "Apply", new { id = item.ID})
+
+            </td>
+
+        </tr>
+}
+
+</table>
+
+@section Scripts{
+    <script type="text/javascript">
+        function timedRefresh(timeoutPeriod) {
+            setTimeout(function () {
+                location.reload(true);
+            }, timeoutPeriod);
+        }
+
+
+
+        
+
+    </script>
+
+}

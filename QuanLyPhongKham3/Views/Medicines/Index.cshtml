@@ -1,0 +1,79 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model  PagedList.IPagedList<QuanLyPhongKham3.Models.Medicine>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of drugs</h2>
+@using (@Html.BeginForm("Index", "Medicines", FormMethod.Get))
+{
+    <b>Sort By:</b>
+    @Html.RadioButton("searchBy", "Name", true) <text>Name</text>
+    @Html.RadioButton("searchBy", "Unit") <text>Unit</text>
+    <br />
+    @Html.Editor("search", new { htmlAttributes = new { @class = "", placeholder = "Please enter medicine name" } })
+    <input type="submit" value="search" />
+}
+
+<p>
+    @Html.ActionLink("Insert Drug", "Create")
+</p>
+
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.ActionLink("Name", "Index", new { sortBy = ViewBag.NameSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.ActionLink("Unit", "Index", new { sortBy = ViewBag.UnitSort, searchBy = Request["searchBy"], search = Request["search"] })
+            </th>
+            <th>
+                @Html.Label("Number")
+            </th>
+            <th>
+                @Html.Label("Cost")
+            </th>
+            <th>
+                @Html.Label("Price")
+            </th>
+            <th>
+                @Html.ActionLink("Type", "Index", new { sortBy = ViewBag.TypeSort })
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Unit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Count)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicineType.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Detail", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+
+    </table>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchBy = Request.QueryString["searchBy"], search = Request.QueryString["search"], sortBy = Request["sortBy"] }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true })
+</div>

@@ -1,0 +1,104 @@
+﻿@model QuanLyPhongKham3.Models.Medicine
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.Label("Medicine Name")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.Label("Unit")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Unit)
+        </dd>
+
+        <dt>
+            @Html.Label("Number")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Count)
+        </dd>
+
+        <dt>
+            @Html.Label("Cost")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+
+        <dt>
+            @Html.Label("Price")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.Label("Medicine Type")
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MedicineType.Name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color" asp-route-id="@Model.ID" method="post">
+            <input style="margin-left:12%" type="submit" value="Delete" class="btn btn-default" onclick="return functionConfirm(this)" />
+            <br>
+            @Html.ActionLink("Black", "Index")
+        </div>
+    }
+</div>
+@section Scripts{
+    <script src="https://lipis.github.io/bootstrap-sweetalert/lib/sweet-alert.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="~/Scripts/sweetalert.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/sweetalert.js"></script>
+    <script type="text/javascript">
+        function functionConfirm(event) {
+            swal({
+                title: 'Are You Sure?',
+                text: "You will not be able to recover this item",
+                type: 'warning',
+                showCancelButton: true,
+                cancelButtonText: 'No',
+                cancelButtonClass: 'btn btn-danger',
+                showConfirmButton: true,
+                confirmButtonText: 'Yes',
+                confirmButtonClass: 'btn btn-success'
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    $('form').submit();
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+            return false;
+        }
+    </script>
+
+}
